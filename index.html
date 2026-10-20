@@ -674,7 +674,7 @@
           el.setAttribute(a, l === 'bn' && BN[el._o[a]] ? BN[el._o[a]] : el._o[a]);
         }));
         document.querySelectorAll('a[href^="'+WA+'?text="]').forEach(a => a.href = WA + '?text=' + encodeURIComponent(GREET[l]));
-        document.title = l === 'bn' ? 'আইকন অ্যালায়েন্স | অগ্নি নিরাপত্তা ও বৈদ্যুতিক সিস্টেম' : 'Icon Alliance | Fire safety, electrical and security systems';
+        document.title = l === 'bn' ? 'আইকন অ্যালায়েন্স | অগ্নি নিরাপত্তা ও বৈদ্যুতিক সিস্টেম' : 'Icon Alliance | Fire safety, electrical and security systems ';
         const b = document.getElementById('lang-toggle');
         b.textContent = l === 'bn' ? 'English' : 'বাংলা'; b.lang = l === 'bn' ? 'en' : 'bn'; b.setAttribute('aria-pressed', String(l === 'bn'));
         try { localStorage.setItem('ia-lang', l); } catch (e) {}
